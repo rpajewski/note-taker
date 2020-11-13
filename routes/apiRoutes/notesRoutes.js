@@ -2,13 +2,13 @@ const router = require('express').Router();
 const { findById, createNewNote, validateNote } = require('../../lib/notes');
 const { notes } = require('../../data/db');
 
-router.get('/notes/:id', (req, res) => {
-    const result = findById(req.params.id, notes);
-    if (result) {
-      res.json(result);
-    } else {
-      res.send(404);
-    }
+router.get('/notes', (req, res) => {
+  const result = notes;
+  if (result) {
+    res.json(result);
+  } else {
+    res.send('Welcome to Note Taker!');
+  }
 });
 
 router.post('/notes', (req, res) => {
