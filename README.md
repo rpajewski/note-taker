@@ -47,4 +47,4 @@ SOFTWARE.,
 
 ## Screenshot
 
-
+![Screen Shot 2020-11-14 at 1 27 38 PM](https://user-images.githubusercontent.com/70237837/99155561-9c015580-267e-11eb-95a3-097aaab21a78.png)
