@@ -4,6 +4,11 @@
       "title": "Test Save Function",
       "text": "Testing testing 1 2 3",
       "id": "0"
+    },
+    {
+      "title": "more notes",
+      "text": "testing testing\n",
+      "id": "1"
     }
   ]
 }
